@@ -14,7 +14,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(cors({
-    origin: 'https://lebaba-frontend-final-nu.vercel.app',
+    origin: 'http://localhost:5173',
     credentials: true
 }))
 

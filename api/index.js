@@ -19,14 +19,14 @@ app.use(cors({
 }))
 
 // image upload 
-const uploadImage = require("./src/utils/uploadImage")
+const uploadImage = require("../src/utils/uploadImage")
 
 // all routes
-const authRoutes = require('./src/users/user.route');
-const productRoutes =  require('./src/products/products.route');
-const reviewRoutes = require('./src/reviews/reviews.router');
-const orderRoutes = require('./src/orders/orders.route');
-const statsRoutes = require('./src/stats/stats.route')
+const authRoutes = require('../src/users/user.route');
+const productRoutes =  require('../src/products/products.route');
+const reviewRoutes = require('../src/reviews/reviews.router');
+const orderRoutes = require('../src/orders/orders.route');
+const statsRoutes = require('../src/stats/stats.route')
 
 app.use('/api/auth', authRoutes);
 app.use('/api/products', productRoutes);

@@ -19,7 +19,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://lebaba-ecommerce-frontend.vercel.app" // add frontend url
+      "https://lebaba-frontend-final-wine.vercel.app/" // add frontend url
     ],
     credentials: true,
   })
